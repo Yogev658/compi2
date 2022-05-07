@@ -1,0 +1,60 @@
+%{
+
+include "output.hpp"
+
+using namespace output;
+
+extern int yylex();     #TODO: CHECK IF NEEDED
+extern int yylineno;    #TODO: CHECK IF NEEDED
+
+void yyerror (const char *msg);  #CHECK IF NEEDED
+
+%}
+
+%token VOID
+%token INT
+%token BYTE
+%token B
+%token BOOL
+%token AUTO  #TODO:?
+%token TRUE
+%token FALSE
+%token RETURN
+%token WHILE
+%token BREAK
+%token CONTINUE
+%token SC
+%token COMMA
+%token LBRACE
+%token RBRACE
+%token ID
+%token NUM
+%token STRING
+
+%right NOT
+%right IF
+%right ASSIGN
+
+%left AND
+%left OR
+%left LPAREN
+%left RPAREN
+%left RELOP_EQ
+%left BINOP
+
+%nonassoc ELSE
+%nonassoc RELOP_REL
+
+%%
+
+
+
+%%
+
+int main() {
+    return yyparse();
+}
+
+void yyerror(const char *msg) {
+    errorSyn(yylineno);
+}

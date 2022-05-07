@@ -6,7 +6,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1f1441a-b9ce-4c02-a4c0-b347426309e5" name="Changes" comment="plain source.lex - may add more rules and check includes latter" />
+    <list default="true" id="c1f1441a-b9ce-4c02-a4c0-b347426309e5" name="Changes" comment="rename source.lex to scanner.lex">
+      <change afterPath="$PROJECT_DIR$/parser.ypp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scanner.lex" beforeDir="false" afterPath="$PROJECT_DIR$/scanner.lex" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +26,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28paWBxB3YKQzAv3YEhrVyBj7Lt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651916012561</updated>
-      <workItem from="1651916019470" duration="3560000" />
+      <workItem from="1651916019470" duration="5975000" />
     </task>
     <task id="LOCAL-00001" summary="adding source.lex">
       <created>1651916216615</created>
@@ -76,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651918869473</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="rename source.lex to scanner.lex">
+      <created>1651920651147</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1651920651147</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +110,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding source.lex" />
     <MESSAGE value="plain source.lex - may add more rules and check includes latter" />
-    <option name="LAST_COMMIT_MESSAGE" value="plain source.lex - may add more rules and check includes latter" />
+    <MESSAGE value="rename source.lex to scanner.lex" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename source.lex to scanner.lex" />
   </component>
 </project>

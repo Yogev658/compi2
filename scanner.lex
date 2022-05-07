@@ -1,10 +1,10 @@
 %{
 
 #include <stdio.h>	
-#include "output.hpp"      #CHECK IF CORRECT
-#include "parser.tab.hpp"  #CHECK IF CORRECT
+#include "output.hpp"
+#include "parser.tab.hpp"
 
-using output::errorLex;
+using namespace output;
 
 %}
 
@@ -39,8 +39,9 @@ continue								return CONTINUE;
 "{"										return LBRACE;
 "}"										return RBRACE;
 "="										return ASSIGN;
-"=="|"!="|"<"|">"|"<="|">="				return RELOP;
-"+"|"-"|"*"|"/"							return BINOP;
+"=="|"!="                               return RELOP_EQ;
+"<"|">"|"<="|">="                       return RELOP_REL;
+"+"|"-"|"*"|"/"                         return BINOP;
 [a-zA-Z][a-zA-Z0-9]*					return ID;
 "0"|[1-9][0-9]*							return NUM;
 \"([^\n\r\"\\]|\\[rnt"\\])+\"           return STRING;
