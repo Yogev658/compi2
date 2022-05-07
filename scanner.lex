@@ -41,13 +41,14 @@ continue								return CONTINUE;
 "="										return ASSIGN;
 "=="|"!="                               return RELOP_EQ;
 "<"|">"|"<="|">="                       return RELOP_REL;
-"+"|"-"|"*"|"/"                         return BINOP;
+"*"|"/"                         return BINOP_MULT;
+"+"|"-"                         return BINOP_ADD;
 [a-zA-Z][a-zA-Z0-9]*					return ID;
 "0"|[1-9][0-9]*							return NUM;
 \"([^\n\r\"\\]|\\[rnt"\\])+\"           return STRING;
 
 {whitespace}+                           ;
-//[^\r\n]*[\r|\n|\r\n]?                 ;
+\/\/[^\r\n]*[\r|\n|\r\n]?                 ;
 
 .                       errorLex(yylineno);
 %%
