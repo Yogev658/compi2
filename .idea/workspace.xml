@@ -6,7 +6,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1f1441a-b9ce-4c02-a4c0-b347426309e5" name="Changes" comment="added printProductionRule to parser.ypp">
+    <list default="true" id="c1f1441a-b9ce-4c02-a4c0-b347426309e5" name="Changes" comment="updated files">
       <change beforePath="$PROJECT_DIR$/parser.ypp" beforeDir="false" afterPath="$PROJECT_DIR$/parser.ypp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651916012561</updated>
-      <workItem from="1651916019470" duration="9217000" />
+      <workItem from="1651916019470" duration="9552000" />
     </task>
     <task id="LOCAL-00001" summary="adding source.lex">
       <created>1651916216615</created>
@@ -102,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651926220576</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="updated files">
+      <created>1651926489724</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1651926489724</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +132,7 @@
     <MESSAGE value="rename source.lex to scanner.lex" />
     <MESSAGE value="in scanner.lex separated RELOP&#10;in parser.ypp added %token, %right, etc" />
     <MESSAGE value="added printProductionRule to parser.ypp" />
-    <option name="LAST_COMMIT_MESSAGE" value="added printProductionRule to parser.ypp" />
+    <MESSAGE value="updated files" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated files" />
   </component>
 </project>

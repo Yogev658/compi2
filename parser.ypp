@@ -7,7 +7,7 @@ using namespace output;
 extern int yylex();     #TODO: CHECK IF NEEDED
 extern int yylineno;    #TODO: CHECK IF NEEDED
 
-void yyerror (const char *msg);
+void yyerror (const char*);
 
 %}
 
@@ -112,6 +112,6 @@ int main() {
     return yyparse();
 }
 
-void yyerror(const char *msg) {
+void yyerror(const char*) {
     errorSyn(yylineno);
 }
