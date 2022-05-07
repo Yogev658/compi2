@@ -7,6 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1f1441a-b9ce-4c02-a4c0-b347426309e5" name="Changes" comment="adding source.lex">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source.lex" beforeDir="false" afterPath="$PROJECT_DIR$/source.lex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651916012561</updated>
-      <workItem from="1651916019470" duration="730000" />
+      <workItem from="1651916019470" duration="2690000" />
     </task>
     <task id="LOCAL-00001" summary="adding source.lex">
       <created>1651916216615</created>
@@ -64,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651916484199</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding source.lex">
+      <created>1651916763770</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651916763770</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
