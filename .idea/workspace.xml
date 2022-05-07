@@ -6,7 +6,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1f1441a-b9ce-4c02-a4c0-b347426309e5" name="Changes" comment="" />
+    <list default="true" id="c1f1441a-b9ce-4c02-a4c0-b347426309e5" name="Changes" comment="adding source.lex">
+      <change beforePath="$PROJECT_DIR$/source.lex" beforeDir="false" afterPath="$PROJECT_DIR$/source.lex" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,8 +48,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651916012561</updated>
-      <workItem from="1651916019470" duration="103000" />
+      <workItem from="1651916019470" duration="730000" />
     </task>
+    <task id="LOCAL-00001" summary="adding source.lex">
+      <created>1651916216615</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651916216615</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adding source.lex">
+      <created>1651916484199</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651916484199</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -63,5 +80,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding source.lex" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding source.lex" />
   </component>
 </project>
