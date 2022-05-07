@@ -7,7 +7,7 @@ using namespace output;
 extern int yylex();     #TODO: CHECK IF NEEDED
 extern int yylineno;    #TODO: CHECK IF NEEDED
 
-void yyerror (const char *msg);  #CHECK IF NEEDED
+void yyerror (const char *msg);
 
 %}
 
@@ -16,7 +16,7 @@ void yyerror (const char *msg);  #CHECK IF NEEDED
 %token BYTE
 %token B
 %token BOOL
-%token AUTO  #TODO:?
+%token AUTO  #TODO:check if token, left, right or nonassoc
 %token TRUE
 %token FALSE
 %token RETURN
